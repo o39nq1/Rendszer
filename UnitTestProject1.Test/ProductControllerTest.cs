@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnitTestProject1.Test
 {
-    internal class TestValidate
+    internal class ProductControllerTest
     {
     }
 }

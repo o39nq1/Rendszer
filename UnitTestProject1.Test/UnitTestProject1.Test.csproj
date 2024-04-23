@@ -70,12 +70,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestValidate.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ProductControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Raktar\Raktar.csproj">
+      <Project>{03d97a60-4e47-4ad2-a02e-06975d338c7c}</Project>
+      <Name>Raktar</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
